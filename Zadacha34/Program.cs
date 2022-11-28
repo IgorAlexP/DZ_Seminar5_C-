@@ -3,11 +3,10 @@
 [345, 897, 568, 234] -> 2 */
 
 
-Console.WriteLine("Введите размер массива");
+Console.Write("Введите размер массива: ");
 int size = Convert.ToInt32(Console.ReadLine());
 int[] numbers = new int[size];
 FillArrayRandomNumbers(numbers);
-Console.WriteLine("Вот наш массив: ");
 PrintArray(numbers);
 int count = 0;
 
